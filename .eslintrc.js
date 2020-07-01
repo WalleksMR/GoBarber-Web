@@ -35,8 +35,8 @@ module.exports = {
   },
   settings: {
     "import/resolver": {
-      "alias": {
-        "map": [["@", "./src"]],
+      "babel-plugin-root-import": {
+        rootPathSuffix: "src"
       },
     },
   },
